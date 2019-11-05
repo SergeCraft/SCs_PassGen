@@ -23,22 +23,19 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="PWG_modules\__init__.py">
+    <Compile Include="modules\__init__.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="PWG_modules\PW_Gen.py">
+    <Compile Include="modules\PW_Gen.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="PWG_modules\PW_Gen_settings.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="PWG_modules\settings_description.py">
+    <Compile Include="modules\PW_Gen_settings.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="SCs_PassGen.py" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="PWG_modules\" />
+    <Folder Include="modules\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
