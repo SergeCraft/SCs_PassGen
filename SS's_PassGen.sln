@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SS's_PassGen", "SS's_PassGen.pyproj", "{A5BCF898-CF9E-46BA-BFB5-BB58AD02EB2B}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SCs_PassGen", "SCs_PassGen.pyproj", "{A5BCF898-CF9E-46BA-BFB5-BB58AD02EB2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

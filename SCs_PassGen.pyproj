@@ -3,14 +3,16 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a5bcf898-cf9e-46ba-bfb5-bb58ad02eb2b</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
-    <StartupFile>SS_s_PassGen.py</StartupFile>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>SCs_PassGen.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>SS's_PassGen</Name>
+    <Name>SCs_PassGen</Name>
     <RootNamespace>SS's_PassGen</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +23,22 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="SS_s_PassGen.py" />
+    <Compile Include="PWG_modules\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PWG_modules\PW_Gen.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PWG_modules\PW_Gen_settings.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PWG_modules\settings_description.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SCs_PassGen.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="PWG_modules\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
